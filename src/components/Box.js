@@ -7,7 +7,7 @@ const Box = () => {
   const [recipes, setRecipes] = useState(recipesList);
 
   return (
-    <div className='box container bg-info py-2'>
+    <div className="box container bg-info py-2">
       <TabList allRecipes={recipes} />
       <Card />
     </div>

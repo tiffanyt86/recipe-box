@@ -1,4 +1,4 @@
-export default [
+recipesList = [
   {
     isSelected: false,
     vegetarian: false,
@@ -4193,3 +4193,5 @@ export default [
       "https://spoonacular.com/savory-cheese-dill-scones-659463",
   },
 ];
+
+export default recipesList;
